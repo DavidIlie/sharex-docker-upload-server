@@ -2,6 +2,8 @@
 
 This is a really basic ShareX custom upload server which can be installed on Docker or Kubernetes. It can only upload images.
 
+You can build the docker image if you want or use the published docker image if you don't want to modify anything.
+
 ## Building the Docker Image
 
 ```bash
