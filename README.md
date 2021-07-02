@@ -38,3 +38,12 @@ sudo docker run -dit --name sharex-upload-server -p 8080:80 *imagename* -v *host
 ### Kubnernetes
 
 You can create the deployment yourself or use an orchestrator like Rancher or Portainer.
+
+
+## Connecting it to ShareX
+
+In ShareX, go to Destinations and to Custom Uploader Settings
+
+<img src="https://user-images.githubusercontent.com/47594764/124262050-d8ac8f00-db31-11eb-94b5-c7ea0ce9ea75.png">
+
+Create something similar this but ensure that these match <strong>your</strong> information
