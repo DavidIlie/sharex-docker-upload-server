@@ -4,6 +4,10 @@ This is a really basic ShareX custom upload server which can be installed on Doc
 
 You can build the docker image if you want or use the published docker image if you don't want to modify anything.
 
+```bash
+docker pull ghcr.io/davidilie/sharex-docker-upload-server:latest
+```
+
 ## Building the Docker Image
 
 ```bash
@@ -34,7 +38,3 @@ sudo docker run -dit --name sharex-upload-server -p 8080:80 *imagename* -v *host
 ### Kubnernetes
 
 You can create the deployment yourself or use an orchestrator like Rancher or Portainer.
-
-## Example
-
-pending
