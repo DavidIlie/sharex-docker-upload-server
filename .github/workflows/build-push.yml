@@ -17,7 +17,7 @@ jobs:
         id: docker_meta
         uses: crazy-max/ghaction-docker-meta@v1
         with:
-          images: ghcr.io/DavidIlie/sharex-upload-server
+          images: ghcr.io/davidilie/sharex-upload
           tag-sha: true
           tag-edge: false
           tag-latest: true
