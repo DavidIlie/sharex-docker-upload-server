@@ -25,7 +25,7 @@ You can deploy this on Docker or Kubernetes:
 
 ### Docker
 
-```
+```bash
 sudo docker run -dit --name sharex-upload-server -p 8080:80 *imagename* -v *hostpath*:/var/www/html/img
 ```
 
