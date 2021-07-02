@@ -34,3 +34,7 @@ sudo docker run -dit --name sharex-upload-server -p 8080:80 *imagename* -v *host
 ### Kubnernetes
 
 You can create the deployment yourself or use an orchestrator like Rancher or Portainer.
+
+## Example
+
+pending
