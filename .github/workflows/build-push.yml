@@ -8,7 +8,7 @@ on:
 jobs:
   build:
     name: 'Build'
-    runs-on: ubuntu-latest
+    runs-on: davidapps-linux-x64
     steps:
       - name: "Build:checkout"
         uses: actions/checkout@v2
